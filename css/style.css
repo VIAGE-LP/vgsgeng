@@ -19,6 +19,29 @@ html,body {
     margin: 0 auto;
 }
 
+.PC .chinese_box{
+    position: relative;
+}
+.PC .chinese_link{
+    position: absolute;
+    width: 14%;
+    display: block;
+    top: 10%;
+    right: 2%;
+}
+
+.SP .chinese_box{
+    position: relative;
+}
+.SP .chinese_link{
+    position: absolute;
+    width: 28%;
+    display: block;
+    top: 4.5%;
+    right: 2%;
+}
+
+
 .PC .offerbox{
     position: relative;
 }

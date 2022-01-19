@@ -27,14 +27,11 @@ $(document).ready(function () {
         $(".line_link").attr("href", "https://line.me/R/ti/p/%40fhl1857j");
     }
 
-    //週年慶活動辦法下拉選單
-    // $(".anniversary_2,.SP_anniversary_2").hide();
-    // $('.anniversary_1, .SP_anniversary_1').click(function (e) {
-    //     e.preventDefault();
-    //     $(".anniversary_2,.SP_anniversary_2").toggle();;
-    // });
-    // $('.anniversary_2, .SP_anniversary_2').click(function (e) {
-    //     e.preventDefault();
-    //     $(".anniversary_2, .SP_anniversary_2").hide();
-    // });
+    // 抓取網址參數後跳轉至vgsg
+    var getUrlString = location.href;
+    var url = new URL(getUrlString);
+    $('.chinese_link').click(function (e) {
+        e.preventDefault();
+        window.location.assign(`https://viagebeautybra.com/sg/vgsg/${url.search}`)
+    });
 });
