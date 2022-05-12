@@ -32,6 +32,6 @@ $(document).ready(function () {
     var url = new URL(getUrlString);
     $('.chinese_link').click(function (e) {
         e.preventDefault();
-        window.location.assign(`https://viagebeautybra.com/sg/vgsg/${url.search}`)
+        window.location.assign(`https://viagebeautybra.com/sg/vgsgkan/${url.search}`)
     });
 });
