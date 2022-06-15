@@ -14,12 +14,18 @@
     "urlCreditCard": null
   },
   "country": "sg",
-  "locale": "zh-Hant",
+  "locale": "en",
   "customerLangPath": "https://viagebeautybra.com/VCommonFiles/language/sg",
   "acsLangPath": null,
-  "policy": "policy.txt",
-  "shippingDate": { "start": null, "end": null },
-  "gmo": { "shopId": null, "cardPaymentCompany": "GMO" },
+  "policy": "policy_en.txt",
+  "shippingDate": {
+    "start": null,
+    "end": null
+  },
+  "gmo": {
+    "shopId": null,
+    "cardPaymentCompany": "GMO"
+  },
   "inputController": {
     "dispatchers": [
       {
@@ -31,19 +37,21 @@
           "topDescription": null,
           "bottomDescription": null
         },
-        "inputProps": { "content": "header.title" }
+        "inputProps": {
+          "content": "header.title"
+        }
       },
       {
         "type": "DescriptionDispatcher",
         "inputType": "TheDescription",
         "section": {
-          "title": "注意事項",
+          "title": "【Conversion charges】",
           "label": null,
           "topDescription": null,
           "bottomDescription": null
         },
         "inputProps": {
-          "content": "　<p>結賬金額為新台幣，非新加坡幣，請參考台幣20元約等於新幣1元。</p><p>信用卡扣款金額：由您的信用卡銀行之台幣兌新幣匯率決定。</p><p>貨到付款收款金額：將按照本網頁上方表示新幣金額收取。</p>"
+          "content": "Product and Shipping will be charged in TWD. (20 TWD≒1 SGD)<br>Pay with a credit card: The exchange rate will depending on your credit card bank.<br>Cash on Delivery: The order will be charged according to the prices indicated on this page."
         }
       },
       {
@@ -56,8 +64,13 @@
           "bottomDescription": null
         },
         "inputProps": {
-          "promotionCode": "vgsg",
-          "options": [{ "name": "選擇內衣", "products": ["item0"] }]
+          "promotionCode": "vgsgeng",
+          "options": [
+            {
+              "name": "Select Bra",
+              "products": ["item0"]
+            }
+          ]
         }
       },
       {
@@ -67,636 +80,639 @@
           "title": null,
           "label": null,
           "topDescription": null,
-          "bottomDescription": "<p><span style=\"color: rgb(230, 0, 0);\">※ 結賬金額為新台幣，非新加坡幣 ※</span></p>"
+          "bottomDescription": null
         },
         "inputProps": {
           "options": {
             "item0": {
               "title": "內衣",
-              "name": { "category_name_1": "顏色", "category_name_2": "尺寸" },
+              "name": {
+                "category_name_1": "顏色",
+                "category_name_2": "尺寸"
+              },
               "products": [
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970266",
+                  "category_name_1": "Black",
                   "category_name_2": "S",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970570",
+                  "category_name_1": "Black",
                   "category_name_2": "S/M",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970273",
+                  "category_name_1": "Black",
                   "category_name_2": "M",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970587",
+                  "category_name_1": "Black",
                   "category_name_2": "M/L",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970280",
+                  "category_name_1": "Black",
                   "category_name_2": "L",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 率性黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970594",
+                  "category_name_1": "Black",
                   "category_name_2": "LL",
-                  "category_name_1": "率性黑",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970297",
-                  "category_name_2": "S",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970662",
-                  "category_name_2": "S/M",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970396",
-                  "category_name_2": "M",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970679",
-                  "category_name_2": "M/L",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970310",
-                  "category_name_2": "L",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 薰衣草紫",
-                  "product_code": "4560449970686",
-                  "category_name_2": "LL",
-                  "category_name_1": "薰衣草紫",
-                  "imageUrl": "薰衣草紫.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970327",
+                  "category_name_1": "Pink",
                   "category_name_2": "S",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970631",
+                  "category_name_1": "Pink",
                   "category_name_2": "S/M",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970334",
+                  "category_name_1": "Pink",
                   "category_name_2": "M",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970648",
+                  "category_name_1": "Pink",
                   "category_name_2": "M/L",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970341",
+                  "category_name_1": "Pink",
                   "category_name_2": "L",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 櫻花粉",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970655",
+                  "category_name_1": "Pink",
                   "category_name_2": "LL",
-                  "category_name_1": "櫻花粉",
                   "imageUrl": "櫻花粉.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970297",
+                  "category_name_1": "Purple",
+                  "category_name_2": "S",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970662",
+                  "category_name_1": "Purple",
+                  "category_name_2": "S/M",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970396",
+                  "category_name_1": "Purple",
+                  "category_name_2": "M",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970679",
+                  "category_name_1": "Purple",
+                  "category_name_2": "M/L",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970310",
+                  "category_name_1": "Purple",
+                  "category_name_2": "L",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449970686",
+                  "category_name_1": "Purple",
+                  "category_name_2": "LL",
+                  "imageUrl": "薰衣草紫.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970402",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "S",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970693",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "S/M",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970419",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "M",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970709",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "M/L",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970426",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "L",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 天空藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970716",
+                  "category_name_1": "Light Blue",
                   "category_name_2": "LL",
-                  "category_name_1": "天空藍",
                   "imageUrl": "天空藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970440",
+                  "category_name_1": "Navy",
                   "category_name_2": "S",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970600",
+                  "category_name_1": "Navy",
                   "category_name_2": "S/M",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970457",
+                  "category_name_1": "Navy",
                   "category_name_2": "M",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970617",
+                  "category_name_1": "Navy",
                   "category_name_2": "M/L",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970464",
+                  "category_name_1": "Navy",
                   "category_name_2": "L",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 海軍藍",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970624",
+                  "category_name_1": "Navy",
                   "category_name_2": "LL",
-                  "category_name_1": "海軍藍",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970792",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "S",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970808",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "S/M",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970815",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "M",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970822",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "M/L",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970839",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "L",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 異色黑",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970846",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "LL",
-                  "category_name_1": "異色黑",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970853",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "S",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970860",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "S/M",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970877",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "M",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": " Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970884",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "M/L",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970891",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "L",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 寧靜灰",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970907",
+                  "category_name_1": "Cool gray x gray",
                   "category_name_2": "LL",
-                  "category_name_1": "寧靜灰",
                   "imageUrl": "寧靜灰.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971164",
-                  "category_name_2": "S",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971171",
-                  "category_name_2": "S/M",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971188",
-                  "category_name_2": "M",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971195",
-                  "category_name_2": "M/L",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971201",
-                  "category_name_2": "L",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣-Air舒涼版 黑色",
-                  "product_code": "4560449971218",
-                  "category_name_2": "LL",
-                  "category_name_1": "黑色",
-                  "imageUrl": "AIR舒涼版黑.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971751",
-                  "category_name_2": "S",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971768",
-                  "category_name_2": "S/M",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971775",
-                  "category_name_2": "M",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971782",
-                  "category_name_2": "M/L",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971799",
-                  "category_name_2": "L",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 微醺粉",
-                  "product_code": "4560449971805",
-                  "category_name_2": "LL",
-                  "category_name_1": "微醺粉",
-                  "imageUrl": "微醺粉.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971812",
-                  "category_name_2": "S",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971829",
-                  "category_name_2": "S/M",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971836",
-                  "category_name_2": "M",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971843",
-                  "category_name_2": "M/L",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971850",
-                  "category_name_2": "L",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 莫蘭綠",
-                  "product_code": "4560449971867",
-                  "category_name_2": "LL",
-                  "category_name_1": "莫蘭綠",
-                  "imageUrl": "莫蘭綠.jpg",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973175",
+                  "category_name_1": "Pink beige",
                   "category_name_2": "S",
-                  "category_name_1": "輕裸橘",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973182",
-                  "category_name_2": "S/M",
-                  "category_name_1": "輕裸橘",
+                  "category_name_1": "Pink beige",
+                  "category_name_2": "SM",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973199",
+                  "category_name_1": "Pink beige",
                   "category_name_2": "M",
-                  "category_name_1": "輕裸橘",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973205",
-                  "category_name_2": "M/L",
-                  "category_name_1": "輕裸橘",
+                  "category_name_1": "Pink beige",
+                  "category_name_2": "ML",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973212",
+                  "category_name_1": "Pink beige",
                   "category_name_2": "L",
-                  "category_name_1": "輕裸橘",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 輕裸橘",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449973229",
+                  "category_name_1": "Pink beige",
                   "category_name_2": "LL",
-                  "category_name_1": "輕裸橘",
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974912",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971812",
+                  "category_name_1": "MossGreen x gray",
                   "category_name_2": "S",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974929",
-                  "category_name_2": "S/M",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971829",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "SM",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974936",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971836",
+                  "category_name_1": "MossGreen x gray",
                   "category_name_2": "M",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974943",
-                  "category_name_2": "M/L",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971843",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "ML",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974950",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971850",
+                  "category_name_1": "MossGreen x gray",
                   "category_name_2": "L",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 溫暖灰",
-                  "product_code": "4560449974967",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971867",
+                  "category_name_1": "MossGreen x gray",
                   "category_name_2": "LL",
-                  "category_name_1": "溫暖灰",
-                  "imageUrl": "温暖灰.jpg",
+                  "imageUrl": "莫蘭綠.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971751",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "S",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971768",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "SM",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971775",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "M",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971782",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "ML",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971799",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "L",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971805",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "LL",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974974",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "S",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974981",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "S/M",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": " Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974998",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "M",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975001",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "M/L",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975018",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "L",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
                   "regular_purchase_flg": 0
                 },
                 {
-                  "name": "Viage晚安立體美型內衣 活力黃",
+                  "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975025",
+                  "category_name_1": "Warmyellow x gray",
                   "category_name_2": "LL",
-                  "category_name_1": "活力黃",
                   "imageUrl": "活力黄.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974912",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "S",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974929",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "S/M",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974936",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "M",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974943",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "M/L",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974950",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "L",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449974967",
+                  "category_name_1": "Warm gray",
+                  "category_name_2": "LL",
+                  "imageUrl": "温暖灰.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971164",
+                  "category_name_1": "Air",
+                  "category_name_2": "S",
+                  "imageUrl": "Air舒涼版黑.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971171",
+                  "category_name_1": "Air",
+                  "category_name_2": "SM",
+                  "imageUrl": "Air舒涼版黑.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971188",
+                  "category_name_1": "Air",
+                  "category_name_2": "M",
+                  "imageUrl": "Air舒涼版黑.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971195",
+                  "category_name_1": "Air",
+                  "category_name_2": "ML",
+                  "imageUrl": "Air舒涼版黑.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971201",
+                  "category_name_1": "Air",
+                  "category_name_2": "L",
+                  "imageUrl": "Air舒涼版黑.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971218",
+                  "category_name_1": "Air",
+                  "category_name_2": "LL",
+                  "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
                 }
               ]
@@ -706,14 +722,14 @@
       },
       {
         "type": "NameDispatcher",
-        "inputType": "VNameEng",
+        "inputType": "default",
         "section": {
           "title": "section.name.title",
           "label": "common.required",
           "topDescription": null,
           "bottomDescription": null
         },
-        "inputProps": []
+        "inputProps": {}
       },
       {
         "type": "GenderDispatcher",
@@ -735,7 +751,10 @@
           "topDescription": null,
           "bottomDescription": null
         },
-        "inputProps": { "min": 1920, "maxAge": 100 }
+        "inputProps": {
+          "min": 1920,
+          "maxAge": 100
+        }
       },
       {
         "type": "ReceivingOptionsDispatcher",
@@ -748,7 +767,12 @@
         },
         "inputProps": {
           "defaultOption": "0",
-          "options": [{ "type": "0", "name": "receivingMethod.cod.title" }]
+          "options": [
+            {
+              "type": "0",
+              "name": "receivingMethod.cod.title"
+            }
+          ]
         }
       },
       {
@@ -760,7 +784,10 @@
           "topDescription": null,
           "bottomDescription": null
         },
-        "inputProps": { "methodInputs": ["VAddressSg"], "defaultPref": "999" }
+        "inputProps": {
+          "methodInputs": ["VAddressSg"],
+          "defaultPref": "999"
+        }
       },
       {
         "type": "TelDispatcher",
@@ -799,7 +826,7 @@
               "receivingMethod": ["0"]
             },
             {
-              "name": "信用卡",
+              "name": "Credit Card",
               "value": "1",
               "icon": "/VCommonFiles/img/icon_creditcard.png",
               "receivingMethod": ["0"]
@@ -813,13 +840,29 @@
         "section": [],
         "inputProps": {
           "options": {
-            "1": { "inputType": "VPaymentMethodFiled", "bottom": null },
-            "2": { "bottom": null },
-            "5": { "bottom": null },
-            "8": { "bottom": null },
-            "9": { "bottom": null },
-            "11": { "inputType": "PayPalInstruction", "bottom": null },
-            "12": { "bottom": null }
+            "1": {
+              "inputType": "VPaymentMethodFiled",
+              "bottom": null
+            },
+            "2": {
+              "bottom": null
+            },
+            "5": {
+              "bottom": null
+            },
+            "8": {
+              "bottom": null
+            },
+            "9": {
+              "bottom": null
+            },
+            "11": {
+              "inputType": "PayPalInstruction",
+              "bottom": null
+            },
+            "12": {
+              "bottom": null
+            }
           }
         }
       },
@@ -832,7 +875,9 @@
           "topDescription": null,
           "bottomDescription": null
         },
-        "inputProps": { "content": "section.aboutDelivery.content" }
+        "inputProps": {
+          "content": "section.aboutDelivery.content"
+        }
       },
       {
         "type": "CommentDispatcher",
@@ -848,7 +893,10 @@
           "placeholder": "section.shippingNote.placeholder",
           "rules": "note",
           "options": [
-            { "title": "Call before Deliver", "value": "Call before Deliver" },
+            {
+              "title": "Call before Deliver",
+              "value": "Call before Deliver"
+            },
             {
               "title": "Don't Deliver at Weekdays",
               "value": "Don't Deliver at Weekdays"
