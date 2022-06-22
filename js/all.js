@@ -19,6 +19,11 @@ $(document).ready(function () {
         },900);
     });
 
+    $('.toggle_btn').click(function (e) { 
+        e.preventDefault();
+        $(".toggle_area").toggle();
+    });
+
     //偵測sns line btn 手機版還是電腦版，連結不同
     var vw=$(window).width();
     if (vw <= 768) {
