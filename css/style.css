@@ -85,6 +85,16 @@ html,body {
     }
 }
 
+.desgin3_box{
+    width:42%;
+    margin:0 auto;
+}
+@media screen and (max-width: 768px){
+    .desgin3_box{
+        width:100%;
+    }
+}
+
 .sns_btn {
     text-align: center;
 }

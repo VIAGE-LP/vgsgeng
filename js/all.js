@@ -24,6 +24,24 @@ $(document).ready(function () {
         $(".toggle_area").toggle();
     });
 
+    $('.title_1').click(function (e) { 
+        e.preventDefault();
+        $(".text_1").toggle();
+        $(".title_1").removeClass("animate__animated");
+    });
+
+    $('.title_2').click(function (e) { 
+        e.preventDefault();
+        $(".text_2").toggle();
+        $(".title_2").removeClass("animate__animated");
+    });
+
+    $('.title_3').click(function (e) { 
+        e.preventDefault();
+        $(".text_3").toggle();
+        $(".title_3").removeClass("animate__animated");
+    });
+
     //偵測sns line btn 手機版還是電腦版，連結不同
     var vw=$(window).width();
     if (vw <= 768) {
