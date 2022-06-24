@@ -22,6 +22,7 @@ $(document).ready(function () {
     $('.toggle_btn').click(function (e) { 
         e.preventDefault();
         $(".toggle_area").toggle();
+        $(".toggle_btn").removeClass("animate__animated");
     });
 
     $('.title_1').click(function (e) { 

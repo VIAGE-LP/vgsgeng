@@ -95,6 +95,17 @@ html,body {
     }
 }
 
+.troubles06{
+    width:50%;
+    margin:0 auto;
+    position: relative;
+}
+@media screen and (max-width: 768px){
+    .troubles06{
+        width:80%;
+    }
+}
+
 .sns_btn {
     text-align: center;
 }
