@@ -51,7 +51,7 @@
           "bottomDescription": null
         },
         "inputProps": {
-          "content": "Product and Shipping will be charged in TWD. (20 TWD≒1 SGD)<br>Pay with a credit card: The exchange rate will depending on your credit card bank.<br>Cash on Delivery: The order will be charged according to the prices indicated on this page.<br><br>＜Pre-order Notice＞<br>Due to the hot sale, Selected items are placed on pre-order. <span style='color:red;'>Please check if there's 'Pre-order' sign behind the item or not, and the pre-order item will be dispatched after 2022/07/11.</span>The order including pre-ordered items will also be shipped after 2022/07/11. As the preorder is placed, we do not accept the cancellation of the order."
+          "content": "Product and Shipping will be charged in TWD. (20 TWD≒1 SGD)<br>Pay with a credit card: The exchange rate will depending on your credit card bank.<br>Cash on Delivery: The order will be charged according to the prices indicated on this page."
         }
       },
       {
@@ -94,7 +94,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970266",
-                  "category_name_1": "Black(PRE-ORDER)",
+                  "category_name_1": "Black",
                   "category_name_2": "S",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
@@ -102,7 +102,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970570",
-                  "category_name_1": "Black(PRE-ORDER)",
+                  "category_name_1": "Black",
                   "category_name_2": "S/M",
                   "imageUrl": "率性黑.jpg",
                   "regular_purchase_flg": 0
@@ -294,7 +294,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970600",
-                  "category_name_1": "Navy(PRE-ORDER)",
+                  "category_name_1": "Navy",
                   "category_name_2": "S/M",
                   "imageUrl": "海軍藍.jpg",
                   "regular_purchase_flg": 0
@@ -342,7 +342,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970808",
-                  "category_name_1": "Black x gray(PRE-ORDER)",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "S/M",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
@@ -350,7 +350,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449970815",
-                  "category_name_1": "Black x gray(PRE-ORDER)",
+                  "category_name_1": "Black x gray",
                   "category_name_2": "M",
                   "imageUrl": "異色黑.jpg",
                   "regular_purchase_flg": 0
@@ -475,7 +475,102 @@
                   "imageUrl": "輕裸橘.jpg",
                   "regular_purchase_flg": 0
                 },
-                
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971812",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "S",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971829",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "SM",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971836",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "M",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971843",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "ML",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971850",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "L",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971867",
+                  "category_name_1": "MossGreen x gray",
+                  "category_name_2": "LL",
+                  "imageUrl": "莫蘭綠.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971751",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "S",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971768",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "SM",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971775",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "M",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971782",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "ML",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971799",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "L",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
+                {
+                  "name": "Viage Beauty Up night bra",
+                  "product_code": "4560449971805",
+                  "category_name_1": "Sweetpink x wine",
+                  "category_name_2": "LL",
+                  "imageUrl": "微醺粉.jpg",
+                  "regular_purchase_flg": 0
+                },
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974974",
@@ -535,7 +630,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974929",
-                  "category_name_1": "Warm gray(PRE-ORDER)",
+                  "category_name_1": "Warm gray",
                   "category_name_2": "S/M",
                   "imageUrl": "温暖灰.jpg",
                   "regular_purchase_flg": 0
@@ -543,7 +638,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974936",
-                  "category_name_1": "Warm gray(PRE-ORDER)",
+                  "category_name_1": "Warm gray",
                   "category_name_2": "M",
                   "imageUrl": "温暖灰.jpg",
                   "regular_purchase_flg": 0
@@ -551,7 +646,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974943",
-                  "category_name_1": "Warm gray(PRE-ORDER)",
+                  "category_name_1": "Warm gray",
                   "category_name_2": "M/L",
                   "imageUrl": "温暖灰.jpg",
                   "regular_purchase_flg": 0
@@ -559,7 +654,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449974950",
-                  "category_name_1": "Warm gray(PRE-ORDER)",
+                  "category_name_1": "Warm gray",
                   "category_name_2": "L",
                   "imageUrl": "温暖灰.jpg",
                   "regular_purchase_flg": 0
@@ -575,7 +670,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971164",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "S",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -583,7 +678,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971171",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "SM",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -591,7 +686,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971188",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "M",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -599,7 +694,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971195",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "ML",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -607,7 +702,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971201",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "L",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -615,7 +710,7 @@
                 {
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449971218",
-                  "category_name_1": "Air(PRE-ORDER)",
+                  "category_name_1": "Air",
                   "category_name_2": "LL",
                   "imageUrl": "Air舒涼版黑.jpg",
                   "regular_purchase_flg": 0
@@ -624,7 +719,7 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975391",
                   "category_name_2": "S",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
                   "regular_purchase_flg": 0
                 },
@@ -632,7 +727,7 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975407",
                   "category_name_2": "S/M",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
                   "regular_purchase_flg": 0
                 },
@@ -640,7 +735,7 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975414",
                   "category_name_2": "M",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
                   "regular_purchase_flg": 0
                 },
@@ -648,7 +743,7 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975421",
                   "category_name_2": "M/L",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
                   "regular_purchase_flg": 0
                 },
@@ -656,7 +751,7 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975438",
                   "category_name_2": "L",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
                   "regular_purchase_flg": 0
                 },
@@ -664,56 +759,8 @@
                   "name": "Viage Beauty Up night bra",
                   "product_code": "4560449975445",
                   "category_name_2": "LL",
-                  "category_name_1": "Coral pink",
+                  "category_name_1": "Coral pink (limited)",
                   "imageUrl": "珊瑚粉.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975452",
-                  "category_name_2": "S",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975469",
-                  "category_name_2": "S/M",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975476",
-                  "category_name_2": "M",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975483",
-                  "category_name_2": "M/L",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975490",
-                  "category_name_2": "L",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
-                  "regular_purchase_flg": 0
-                },
-                {
-                  "name": "Viage Beauty Up night bra",
-                  "product_code": "4560449975506",
-                  "category_name_2": "LL",
-                  "category_name_1": "Cocoa brown (limited)",
-                  "imageUrl": "可可棕.png",
                   "regular_purchase_flg": 0
                 }
               ]
