@@ -90,6 +90,12 @@ $(document).ready(function () {
         // $(".Q1").removeClass("animate__animated");
     });
 
+    $('.products_title').click(function (e) { 
+        e.preventDefault();
+        $(".products_text").toggle();
+        $(".products_title").removeClass("animate__animated");
+    });
+
     //偵測sns line btn 手機版還是電腦版，連結不同
     var vw=$(window).width();
     if (vw <= 768) {
