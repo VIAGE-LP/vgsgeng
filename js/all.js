@@ -58,6 +58,38 @@ $(document).ready(function () {
         $(".title_3").removeClass("animate__animated");
     });
 
+    $('.viewmore').click(function (e) { 
+        e.preventDefault();
+        $(".viewmore_hider").toggle();
+        $(".viewmore").removeClass("animate__animated");
+    });
+
+    $('.Q1').click(function (e) { 
+        e.preventDefault();
+        $(".A1").toggle();
+        // $(".Q1").removeClass("animate__animated");
+    });
+    $('.Q2').click(function (e) { 
+        e.preventDefault();
+        $(".A2").toggle();
+        // $(".Q1").removeClass("animate__animated");
+    });
+    $('.Q3').click(function (e) { 
+        e.preventDefault();
+        $(".A3").toggle();
+        // $(".Q1").removeClass("animate__animated");
+    });
+    $('.Q4').click(function (e) { 
+        e.preventDefault();
+        $(".A4").toggle();
+        // $(".Q1").removeClass("animate__animated");
+    });
+    $('.Q5').click(function (e) { 
+        e.preventDefault();
+        $(".A5").toggle();
+        // $(".Q1").removeClass("animate__animated");
+    });
+
     //偵測sns line btn 手機版還是電腦版，連結不同
     var vw=$(window).width();
     if (vw <= 768) {

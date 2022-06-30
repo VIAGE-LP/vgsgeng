@@ -106,6 +106,16 @@ html,body {
     }
 }
 
+.QA{
+    width: 40%;
+    margin:0 auto;
+}
+@media screen and (max-width: 768px){
+    .QA{
+        width: 100%;
+    }
+}
+
 .sns_btn {
     text-align: center;
 }
