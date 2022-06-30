@@ -19,10 +19,25 @@ $(document).ready(function () {
         },900);
     });
 
-    $('.toggle_btn').click(function (e) { 
+    $('.fourmajor_1_title').click(function (e) { 
         e.preventDefault();
-        $(".toggle_area").toggle();
-        $(".toggle_btn").removeClass("animate__animated");
+        $(".fourmajor_1_text").toggle();
+        $(".fourmajor_1_title").removeClass("animate__animated");
+    });
+    $('.fourmajor_2_title').click(function (e) { 
+        e.preventDefault();
+        $(".fourmajor_2_text").toggle();
+        $(".fourmajor_2_title").removeClass("animate__animated");
+    });
+    $('.fourmajor_3_title').click(function (e) { 
+        e.preventDefault();
+        $(".fourmajor_3_text").toggle();
+        $(".fourmajor_3_title").removeClass("animate__animated");
+    });
+    $('.fourmajor_4_title').click(function (e) { 
+        e.preventDefault();
+        $(".fourmajor_4_text").toggle();
+        $(".fourmajor_4_title").removeClass("animate__animated");
     });
 
     $('.title_1').click(function (e) { 
